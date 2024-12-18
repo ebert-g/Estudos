@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Modelo</title>
+        <link rel="stylesheet" href="estilo.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Tabuada</h1>
+        </header>
+        <section>
+            <div>
+                <p>
+                    Número: <input type="number" name="NTab" id="NTab" />
+                    <input
+                        type="button"
+                        value="Gerar Tabuada"
+                        onclick="GerarTab()"
+                    />
+                </p>
+            </div>
+            <div>
+                <textarea id="ResTab" rows="10" cols="20"></textarea>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; Ebert_Guerreiro</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

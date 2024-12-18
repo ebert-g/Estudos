@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> De onde voçê é?</h1>
+    Nacionalidade: <input type="text" id="nasc">
+    <input type="button" value="Confirmar" onclick="conf()">
+    <div id="esc">
+
+    </div>
+    <script>
+        function conf(){
+        var NascInp = document.getElementById('nasc')
+        var nacioana = NascInp.value
+        var res = document.querySelector('div#esc')
+        res.innerHTML = `<p>Você nasceu em ${nacioana}</p>`
+        if(nacioana == 'brasil'){
+          res.innerHTML += `<p>Você é Brasileiro</p>` 
+        }
+        else {
+            res.innerHTML += '<p>Você é estrangeiro</p>'
+        }
+    }
+
+    </script>
+</body>
+</html>

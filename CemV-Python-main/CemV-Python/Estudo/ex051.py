@@ -1,0 +1,10 @@
+print('~' * 35)
+print('     10 TERMOS DE UMA P.A.      ')
+print('~' * 35)
+print('=' * 35)
+pt = int(input('Informe o primeiro termo: '))
+z = int(input('Informe a razão: '))
+print('=' * 35)
+for c in range(0, 10):
+    print(pt + z * c, end=' -> ')
+print('FIM')

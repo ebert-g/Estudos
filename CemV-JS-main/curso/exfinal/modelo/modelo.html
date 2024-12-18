@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Analisador de Números</title>
+        <link rel="stylesheet" href="estilo.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Analisador de Números</h1>
+        </header>
+        <section>
+            <div>
+                <p>
+                    Número (entre 1 e 100):
+                    <input type="number" name="InpNum" id="InpNum" />
+                    <input type="button" value="Adicionar" onclick="add()" />
+                </p>
+                <p><select name="SelRes" id="SelRes" size="10"></select></p>
+                <p>
+                    <input
+                        type="button"
+                        value="Finalizar"
+                        id="finalizar"
+                        onclick="AnalisandoLista()"
+                    />
+                </p>
+            </div>
+            <div>
+                <p id="res">
+                    <br />
+                </p>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; Ebert_Guerreiro</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

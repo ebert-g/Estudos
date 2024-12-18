@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&display=swap');
+
+:root {
+
+    /*  Cores Principal  */
+    --cor0: #D5D7F2;
+    --cor1: #8D92F2;
+    --cor2: #636AF2;
+    --cor3: #3D46F2;
+    --corD: #f2ae30;
+    /*  FONTES  */
+    --fonteTi: "Bebas Neue", sans-serif;
+
+
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    background-color: var(--cor0);
+
+}
+
+header {
+    height: 100px;
+    padding-top: 30px;
+    background-color: var(--corD);    
+    
+    
+}
+
+header h1 {
+    text-align: center;
+    font-family: var(--fonteTi);
+    font-size: 4em;
+    color: white;
+    
+
+}
+
+article {
+    height: auto;
+    max-width:1250px;
+    height: 1000px;
+    margin: auto auto;
+    background-color: white;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+}
+
+img.minhaft {
+    margin: 30px;
+    border-radius: 2px;
+    max-width: 300px ;
+    max-height: 300px ;
+}
+
+
+
+
+
+
+
+/*
+body {
+    background: #f0f0f0;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+header {
+    color: #333333;
+    text-align: center;
+}
+.sect {
+    background: white;
+    border-radius: 10px;
+    padding: 15x;
+    width: auto;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
+}
+#sect1 {
+    text-align: center;
+}
+*/
