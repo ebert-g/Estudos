@@ -1,14 +1,22 @@
+import java.util.ArrayList;
+import java.util.Random;
+
 import classe.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        SomarArea calcularArea = new SomarArea();
-        Quadrado quadrado = new Quadrado(4);
-         Triangulo triangulo = new Triangulo(3, 3);
-        System.out.println(triangulo.calcularArear());
-        System.out.println();
-        System.out.println(quadrado.calcularArear());
-        System.out.println(calcularArea.somarArea(triangulo, triangulo));
+        ArrayList<Integer> arrayDinanmico = new ArrayList<Integer>();
+        Random random = new Random();
+        int num = 0, soma = 0;
+        while (num != 2) {
+            num = random.nextInt(1, 51);
+            soma += num;
+            arrayDinanmico.add(soma);
+        }
+        for (int i = 0; i < arrayDinanmico.size(); i++) {
+            System.out.println(arrayDinanmico.get(i));
+        }
+        System.out.println("DONE");
 
     }
 }
