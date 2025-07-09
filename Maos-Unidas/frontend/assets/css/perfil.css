@@ -1,0 +1,105 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: aquamarine;  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.card-container{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 0px #000;
+    color: black;
+    padding-top: 15px;
+    position: relative;
+    max-width: 400px;
+    text-align: center;
+}
+
+.card-container .card-img{
+    width: 170px;
+    margin: auto;
+}
+
+.card-container .card-img .round{
+    border: 1px solid #000000;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.card-container h3{
+    margin: 10px 0;
+}
+
+.card-container h6{
+    margin: 7px 0;
+    text-transform: uppercase;   
+}
+
+.card-container p{
+    font-size: 14px;
+    line-height: 21px;   
+}
+
+.card-container .buttons{
+    margin-top: 10px;   
+}
+
+.card-container .buttons .btn{
+    background-color: #b3afaf;
+    border: 1px solid #b3afaf;
+    outline: none;
+    border-radius: 3px;
+    color: blue;
+    font-weight: 500;
+    padding: 10px 25px;
+}
+
+.card-container .buttons .btn.ghost{
+    background-color: #b3afaf;
+    color: blue;
+}
+
+.card-container .areas{
+    text-align: left;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.card-container .areas h4{
+    margin-bottom: 15px;
+}
+
+.card-container .areas ul{
+    list-style: none;   
+}
+
+.card-container .areas ul li{
+    border: 1px solid #b3afaf;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 7px 7px 0;
+    padding: 7px;
+}
+
+.card-container .areas .medias-sociais{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-container .areas .medias-sociais a{
+    text-decoration: none;
+    padding: 3px;
+
+} */
